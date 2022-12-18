@@ -4,7 +4,7 @@ list = [0,1,0]
 for i in range(100):
     newlist = []
     for q in range(len(list)):
-        if q < 100 and int(len(list) - 1) != q:
+        if q < 101 and int(len(list) - 1) != q:
             newnum = int(list[q] + list[q+1])
             newlist.append(newnum)
         else:
